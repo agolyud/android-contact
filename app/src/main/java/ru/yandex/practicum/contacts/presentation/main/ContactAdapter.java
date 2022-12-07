@@ -31,7 +31,6 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
             new AsyncDifferConfig.Builder<>(new ListDiffCallback()).build()
     );
 
-
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
